@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
-import { FaUser } from 'react-icons/fa';
+import { FaUser, FaShoppingCart } from 'react-icons/fa';
 
 const Navbar = () => {
     return (
@@ -59,10 +59,18 @@ const Navbar = () => {
                         </li>
                         <li>
                             <a
+                                href="/cart"
+                                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                            >
+                                <FaShoppingCart className="inline-block mr-1 text-indigo-500" /> Carro  
+                            </a>
+                        </li>
+                        <li>
+                            <a
                                 href="/login-form"
                                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                             >
-                                <FaUser className="inline-block mr-2 text-indigo-500" />Ingresar
+                                <FaUser className="inline-block mr-2 text-indigo-500" />
                             </a>
                         </li>
                     </ul>

@@ -5,6 +5,7 @@ import Navbar from './NavBar';
 import Home from './Home';
 import RegistroCliente from './RegistroCliente';
 import RegistroEmpresa from './RegistroEmpresa';
+import Cart from './Cart';
 import ListaProductos from './ListaProductos';
 import LoginForm from './Login';
 import Footer from './Footer';
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/login-form" element={<LoginForm />} />  
         <Route path="/registro-cliente" element={<RegistroCliente />} />
         <Route path="/registro-empresa" element={<RegistroEmpresa />} />
+        <Route path="/cart" element={<Cart />} />
         <Route path="/productos" element={<ListaProductos />} />
       </Routes>
       <Footer/>

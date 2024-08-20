@@ -57,7 +57,7 @@ const ListaProductos = () => {
                             <p className="text-gray-600 mb-4">Precio: <span className="font-medium text-xl">${producto.precio.toLocaleString()}</span></p>
 
                                 <button className="py-2 px-4 bg-indigo-600 text-white rounded-lg shadow-md hover:bg-indigo-700 transition duration-300 ease-in-out">
-                                    Agregar al carrito
+                                    Ver mas
                                 </button>
                            
                         </div>
