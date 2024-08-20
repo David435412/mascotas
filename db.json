@@ -1,0 +1,11 @@
+{
+    "user": [
+    {
+    "id": 1,
+    "correo":"davidm435465123@gmail.com",    
+    "nombre":"David Murcia",
+    "telefono":3103220039,    
+    "password":"qwerty"
+    }  
+    ]
+}

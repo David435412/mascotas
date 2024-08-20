@@ -81,7 +81,7 @@ const LoginForm = () => {
                                         Ingresar
                                     </button> 
                             </form>
-                            <p class="text-sm text-[#636262]">¿Aun no tienes cuenta? <a href="/registro-cliente" class="text-sm font-bold text-black">Registrate</a></p>
+                            <p className="text-sm text-[#636262]">¿Aun no tienes cuenta? <a href="/registro-cliente" className="text-sm font-bold text-black">Registrate</a></p>
                         </div>
                     </div>
                 </div>
