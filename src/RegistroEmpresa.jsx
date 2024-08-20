@@ -2,7 +2,7 @@
 import React from 'react';
 
 
-const RegistroCliente = () => {
+const RegistroEmpresa = () => {
     return (
         <div>
             <section className="bg-gray-50 ligth:bg-red-200">
@@ -41,6 +41,22 @@ const RegistroCliente = () => {
                             <form className="space-y-4 md:space-y-6" action="">
                                 <div>
                                     <label
+                                        htmlFor="text"
+                                        className="block mb-2 text-sm font-medium text-gray-900 dark:text-black"
+                                    >
+                                        Nombre Empresa
+                                    </label>
+                                    <input
+                                        type="text"
+                                        name="name"
+                                        id="name"
+                                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 ligth:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                        placeholder="Nombre de tu empresa"
+                                        required=""
+                                    />
+                                </div>
+                                <div>
+                                    <label
                                         htmlFor="email"
                                         className="block mb-2 text-sm font-medium text-gray-900 dark:text-black"
                                     >
@@ -51,23 +67,7 @@ const RegistroCliente = () => {
                                         name="email"
                                         id="email"
                                         className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 ligth:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                        placeholder="name@gmail .com"
-                                        required=""
-                                    />
-                                </div>
-                                <div>
-                                    <label
-                                        htmlFor="name"
-                                        className="block mb-2 text-sm font-medium text-gray-900 dark:text-black"
-                                    >
-                                        Nombre
-                                    </label>
-                                    <input
-                                        type="text"
-                                        name="name"
-                                        id="name"
-                                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 ligth:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                        placeholder="Tu nombre"
+                                        placeholder="name@company.com"
                                         required=""
                                     />
                                 </div>
@@ -92,7 +92,7 @@ const RegistroCliente = () => {
                                         htmlFor="password"
                                         className="block mb-2 text-sm font-medium text-gray-900 dark:text-black"
                                     >
-                                        Password
+                                        Contraseña
                                     </label>
                                     <input
                                         type="password"
@@ -142,4 +142,4 @@ const RegistroCliente = () => {
     );
 };
 
-export default RegistroCliente;
+export default RegistroEmpresa;
