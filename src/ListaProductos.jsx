@@ -56,9 +56,9 @@ const ListaProductos = () => {
                             <p className="text-gray-600 mb-2">Tienda: <span className="font-medium">{producto.tienda}</span></p>
                             <p className="text-gray-600 mb-4">Precio: <span className="font-medium text-xl">${producto.precio.toLocaleString()}</span></p>
 
-                                <button className="py-2 px-4 bg-indigo-600 text-white rounded-lg shadow-md hover:bg-indigo-700 transition duration-300 ease-in-out">
+                                <a href="./detalles-producto" className="px-6 py-2 bg-gradient-to-r from-blue-500 to-purple-500 text-white font-bold rounded-full transition-transform transform-gpu hover:-translate-y-1 hover:shadow-lg">
                                     Ver mas
-                                </button>
+                                </a>
                            
                         </div>
                     </div>
